@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+    z-index: 222;
+}
+.logo{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(255, 183, 0);
+}
+.logo b{
+    color: rgb(0, 0, 0);
+}
+ul{
+    display: flex;
+    list-style: none;
+    flex: 1;
+    justify-content: right;
+    margin-right: 100px;
+}
+ul li{
+    margin:0 20px;
+}
+ul li a{
+    display: block;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+    letter-spacing: 1;
+    color: brown;
+ }
+ul li:hover a{
+    color: black;
+}
+.hero{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+}
+.hero1{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+}
+.hero1 h1{
+    font-size: 70px;
+    font-weight: 600;
+    color: brown;
+    z-index: 1111;
+}
+.hero1 h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    margin: 10px;
+}
+.hero1 p{
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+    margin: 10px 0;
+}
+.hero1 .herob{
+    width: 100%;
+    margin-top: 20px;
+}
+.herob button{
+    border: none;
+    background-color: #000000;
+    color: #fff;
+    font-size: 25px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    box-shadow: 0 15px 20px 0 brown;
+}
+.herob button:hover{
+    transition: 0.2s ease-in-out;
+    padding: 10px 40px;
+}
+.herolink{
+    /*padding: ;*/
+    position: absolute;
+    bottom: 110px;
+}
+.herolink i{
+    font-size: 30px;
+    margin: 0 20px;
+    cursor: pointer;
+    color: #000000;
+    transition: 0.2s ease ;
+}
+.herolink i:hover{
+    font-size: 34px;
+    color: brown;
+    transition: 0.2s ease ;
+}
+.hero2{
+    overflow: hidden;
+}
+.heroimage{
+    position: relative;
+    width: 800px;
+    top: -50px;
+    z-index: 1;
+    transition: 0.3s ease;
+}
